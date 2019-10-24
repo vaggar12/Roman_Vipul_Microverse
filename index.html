@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <title>Roman an Vipul | Product Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      #nav-bar {
+        display: inline-block;
+      }
+
+    @media (max-width: 650px) {
+    .logo > img {
+      margin: 0 auto;
+    }
+  }
+
+  #header {
+  display: flex;
+  flex-direction: column;
+}
+
+    </style>
   </head>
 
   <body>
@@ -20,8 +37,8 @@
         </section>
           <nav id="nav-bar">
             <ul>
-            <li><a href="#features" class = "nav-link">Features</a></li>
-            <li><a href="#howtoitworks" class = "nav-link">How it works</a></li>
+            <li><a href="#header" class = "nav-link">Features</a></li>
+            <li><a href="#video" class = "nav-link">How it works</a></li>
             <li></li><a href="#pricing" class = "nav-link">Pricing</a></li>
           </ul>
           </nav>        
@@ -29,9 +46,10 @@
     </header>
     
     <section id="features">
-        <iframe width="667" height="375" src="https://www.youtube.com/embed/yQCREgz4tQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id ="video" width="667" height="375" src="https://www.youtube.com/embed/yQCREgz4tQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
     </section>
+    <div id="pricing"></div>
     
     
     
